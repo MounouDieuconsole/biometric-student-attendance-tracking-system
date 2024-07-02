@@ -1,0 +1,113 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+body {
+  background-color: #bbb8b5; 
+}
+
+/** Style for log, sign, and addstudent pages**/
+.log, .sign, .addstudent,.forgot,.pass {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+input, input[type="submit"],select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #ff8000;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover {
+  background-color: #000000;
+}
+
+button {
+  background-color: #ff8000;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signup {
+  margin-top: 15px;
+  text-align: center;
+}
+.pass{
+  margin-top: 15px;
+  text-align: center;
+}
+
+a {
+  color: #ff8000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+/** Css for the alert**/
+.custom-alert {
+  background-color: khaki; /* Light red background */
+  color: #721c24; /* Dark red text color */
+  padding: 10px 20px; /* Padding around the text */
+  border-radius: 5px; /* Rounded corners */
+  margin: 10px 0; /* Margin for spacing */
+  position: relative; /* For absolute positioning of close button */
+  border: 1px solid #f5c2c7; /* Light red border */
+  max-width: 400px;
+  margin-left: 25px;
+}
+
+.alert-message {
+  display: inline-block; /* Inline block for inline styling */
+}
+
+.alert-close {
+  position: absolute; /* Position it to the right */
+  right: 10px; /* Distance from the right */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Adjust for exact centering */
+  border: none; /* No border */
+  background: none; /* No background */
+  color: #721c24; /* Same as text color */
+  font-size: 20px; /* Larger close icon */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.alert-close:hover {
+  color: #a94442; /* Darker shade on hover */
+}
+

@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\xampp\\htdocs\\BSATS\\biometric\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8AF831B6-F559-49A7-BE74-D005089E9D0D}|biometric.csproj|C:\\xampp\\htdocs\\BSATS\\biometric\\enroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AF831B6-F559-49A7-BE74-D005089E9D0D}|biometric.csproj|solutionrelative:enroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AF831B6-F559-49A7-BE74-D005089E9D0D}|biometric.csproj|c:\\xampp\\htdocs\\bsats\\biometric\\enroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8AF831B6-F559-49A7-BE74-D005089E9D0D}|biometric.csproj|solutionrelative:enroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AF831B6-F559-49A7-BE74-D005089E9D0D}|biometric.csproj|c:\\xampp\\htdocs\\bsats\\biometric\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8AF831B6-F559-49A7-BE74-D005089E9D0D}|biometric.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AF831B6-F559-49A7-BE74-D005089E9D0D}|biometric.csproj|C:\\xampp\\htdocs\\BSATS\\biometric\\verify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AF831B6-F559-49A7-BE74-D005089E9D0D}|biometric.csproj|solutionrelative:verify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AF831B6-F559-49A7-BE74-D005089E9D0D}|biometric.csproj|c:\\xampp\\htdocs\\bsats\\biometric\\selectcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AF831B6-F559-49A7-BE74-D005089E9D0D}|biometric.csproj|solutionrelative:selectcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AF831B6-F559-49A7-BE74-D005089E9D0D}|biometric.csproj|C:\\xampp\\htdocs\\BSATS\\biometric\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AF831B6-F559-49A7-BE74-D005089E9D0D}|biometric.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AF831B6-F559-49A7-BE74-D005089E9D0D}|biometric.csproj|C:\\xampp\\htdocs\\BSATS\\biometric\\selectcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8AF831B6-F559-49A7-BE74-D005089E9D0D}|biometric.csproj|solutionrelative:selectcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "enroll.cs [Design]",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\BSATS\\biometric\\enroll.cs",
+              "RelativeDocumentMoniker": "enroll.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\BSATS\\biometric\\enroll.cs [Design]",
+              "RelativeToolTip": "enroll.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T11:39:32.885Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cs [Design]",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\BSATS\\biometric\\main.cs",
+              "RelativeDocumentMoniker": "main.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\BSATS\\biometric\\main.cs [Design]",
+              "RelativeToolTip": "main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T09:58:27.621Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "main.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\BSATS\\biometric\\main.cs",
+              "RelativeDocumentMoniker": "main.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\BSATS\\biometric\\main.cs",
+              "RelativeToolTip": "main.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAmwDsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T11:56:15.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "verify.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\BSATS\\biometric\\verify.cs",
+              "RelativeDocumentMoniker": "verify.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\BSATS\\biometric\\verify.cs",
+              "RelativeToolTip": "verify.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T01:21:11.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SelectCourse.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\BSATS\\biometric\\SelectCourse.cs",
+              "RelativeDocumentMoniker": "SelectCourse.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\BSATS\\biometric\\SelectCourse.cs",
+              "RelativeToolTip": "SelectCourse.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAkwCAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T12:07:17.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "enroll.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\BSATS\\biometric\\enroll.cs",
+              "RelativeDocumentMoniker": "enroll.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\BSATS\\biometric\\enroll.cs",
+              "RelativeToolTip": "enroll.cs",
+              "ViewState": "AQIAAKgAAAAAAAAAAAAYwCsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T00:26:34.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SelectCourse.cs [Design]",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\BSATS\\biometric\\SelectCourse.cs",
+              "RelativeDocumentMoniker": "SelectCourse.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\BSATS\\biometric\\SelectCourse.cs [Design]",
+              "RelativeToolTip": "SelectCourse.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T11:21:45.146Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

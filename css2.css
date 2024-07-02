@@ -1,0 +1,409 @@
+/**Font**/
+ /** @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap');
+/** global style of the system**/
+  *{
+    font-family:'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+ --orange: #ff8000;
+ --black:  #000000;
+ --white:  #fff;
+ --gray:   #bbb8b5;
+}
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: #bbb8b5;
+}
+/**navigation modifications**/ 
+.navigation {
+    position: fixed;
+    width: 310px;
+    height: 100%;
+    background: var(--orange);
+    border-left: 10px solid var(--orange);
+    transition: 0.5s;
+    overflow: hidden;
+}
+.navigation.active{
+    width: 79px;
+}
+
+.navigation ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.navigation ul li {
+    position: relative;
+    width: 100%;
+    list-style: none;
+    border-top-left-radius: 30px; 
+    border-bottom-left-radius: 30px;
+}
+.navigation ul li:hover{
+    background-color: var(--gray);
+}
+.navigation ul li:nth-child(1) {
+    margin-bottom: 40px;
+    pointer-events: none;
+}
+.navigation ul li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: var(--black)
+}
+.navigation ul li:hover a{
+    color:var(--white);
+}
+.navigation ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 75px;
+    text-align: center;
+}
+.navigation ul li a .icon ion-icon{
+    font-size: 1.75rem;
+}
+.navigation ul li a .title{
+position: relative;
+display: block;
+padding: 0 10px;
+height: 60px;
+line-height: 60px;
+text-align: start;
+white-space: nowrap;
+}
+/** curse at the rigth side**/
+.navigation ul li:hover a::before
+{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: -50px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 35px 35px 0 10px var(--gray);
+    pointer-events: none;
+}
+.navigation ul li:hover a::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 35px -35px 0 10px var(--gray);
+    pointer-events: none;
+}
+
+/**main**/
+.main {
+   
+    position: absolute;
+    width: calc(100% - 300px);
+    left: 300px;
+    min-height: 100vh;
+    background:var(--gray);
+    transition:0.5s ;
+    position: fixed;
+}
+
+.main.active{
+    width: calc(100% - 80px);
+    left: 80px;
+}
+.topbar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.toggle {
+position: relative;
+
+width: 60px;
+height: 60px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 2.5rem;
+cursor: pointer;
+border-radius: 5px;
+}
+.search-container {
+ float: right;
+}
+
+.search-container input[type=text],.search2 input[type=text] {
+  padding: 6px 10px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+}
+
+.search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: var(--orange);
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* for the button*/
+.user-name {
+    margin-right: 10px;
+    float: right;
+  }
+  
+  .logout-button {
+    background-color: var(--orange);
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    margin-right: 15px;
+    margin-top: 15px;
+  }
+  .search2{
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  
+ .logout-button:hover {
+  
+    background-color: var(--gray); 
+    color: white; 
+}
+
+/* cardbox*/
+.cardBox{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+.cardBox .card{
+    position: relative;
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+}
+
+.cardBox .card .numbers{
+    position: relative;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: var(--orange);
+}
+.cardBox .card .cardName{
+    color: var(--gray);
+    font-size: 1.1rem;
+    margin-top: 5px;
+}
+
+.cardBox .card .iconBx{
+    font-size: 2.5rem;
+    color: #000000;
+}
+.cardBox .card:hover{
+    background: var(--orange);
+}
+.cardBox .card:hover .numbers,
+.cardBox .card:hover .cardName,
+.cardBox .card:hover .iconBx{
+color: var(--white);
+}
+/* for student page*/
+.table-container {
+  max-height: 400px; /* Adjust the height as needed */
+  overflow-y: auto;
+  width: 100%;
+    display: block;
+}
+  #studentListTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: 15px;
+    margin-right: 0px;
+   
+  }
+  
+  #studentListTable thead {
+    background-color: #f2f2f2;
+  }
+  
+  #studentListTable th, #studentListTable td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+    
+  }
+  
+  #studentListTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+    
+  }
+/*for the span of the name */
+  .user {
+    display: flex;
+    align-items: center; 
+}
+
+.user-name {
+    margin-right: 10px; 
+    font-size: large;
+    font-style: italic;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+#logoutButton{
+  margin-top: 35px;
+}
+  
+  button {
+    margin-bottom: 40px;
+    background-color: var(--orange);
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+  button:hover {
+    background-color: var(--gray); 
+    color: white; 
+}
+  .search{
+    position: relative;
+    width: 200px;
+    text-align: right;
+    margin: 10px 0;
+    float: right;
+    margin-right: 20px;
+  }
+  #searchBox {
+    width: 97%;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid ;
+    padding: 5px 10px;
+  }
+  .topTable{
+border-radius: 10px;
+}  
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  color:#fff;
+}
+.show{
+  margin-left: 25px;
+  max-width: 200px; 
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.show2{
+  margin-left: 25px;
+  max-width: 200px; 
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+#addStudentBtn, #addCourseBtn, #addLecturerBtn{
+margin-left: 25px;
+}
+/** Css for the alert**/
+.custom-alert {
+  background-color: khaki; /* Light red background */
+  color: #721c24; /* Dark red text color */
+  padding: 10px 20px; /* Padding around the text */
+  border-radius: 5px; /* Rounded corners */
+  margin: 10px 0; /* Margin for spacing */
+  position: relative; /* For absolute positioning of close button */
+  border: 1px solid #f5c2c7; /* Light red border */
+  max-width: 400px;
+  margin-left: 25px;
+}
+
+.alert-message {
+  display: inline-block; /* Inline block for inline styling */
+}
+
+.alert-close {
+  position: absolute; /* Position it to the right */
+  right: 10px; /* Distance from the right */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Adjust for exact centering */
+  border: none; /* No border */
+  background: none; /* No background */
+  color: #721c24; /* Same as text color */
+  font-size: 20px; /* Larger close icon */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.alert-close:hover {
+  color: #a94442; /* Darker shade on hover */
+}
+
+
+.icon2 {
+  font-size: 20px; 
+  color: black;
+}
+.icon2:hover{
+  color:#ff8000;
+}
+
+/* for rows color*/
+/* Gray background for all rows */
+tbody tr {
+  background-color: #e6e6e6; /* Light gray */
+}
+
+/* Slightly different gray for even rows - zebra striping */
+tbody tr:nth-child(even) {
+  background-color: #e6e6e6; /* Slightly darker gray */
+}
+
+
+
+
+
